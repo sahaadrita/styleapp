@@ -9,10 +9,10 @@ const GlobalStyles=createGlobalStyle`
 
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
+    align-items:top;
     min-height: 100vh;
-    background: green;
+    background: ${({theme})=>theme.colors.body};
     
 }
 
